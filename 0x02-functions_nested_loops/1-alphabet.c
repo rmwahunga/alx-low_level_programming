@@ -1,6 +1,5 @@
 
-#include <stdio.h>
-#include "holberton.h"
+#include main.h
 
 
 /**
@@ -9,7 +8,7 @@
  * Return: Always 0 (Succes)
  *
  */
-void print_alphabet(void)
+int main(void)
 {
 	int n;
 
