@@ -8,23 +8,21 @@
  *@str: string
  * Return: void
  */
+
 void puts_half(char *str)
 {
-	int n = strlen(str);
-	int i;
-	
-	if (n % 2 == 0)
+	int j, i = 0;
+
+	while (*(str + i))
+		i++;
+	j = i / 2;
+	if (i % 2)
+		j += 1;
+	while (j < i)
 	{
-		for (i = 0; i < n / 2; i++)
-		{
-			printf("%c", str[i]);												}
+		_putchar(*(str + j));
+		j++;
 	}
-	else
-	{
-		for (i = n / 2; i < n; i++)	
-		{
-			printf("%c", str[i]);
-		}
-	}
-	printf("\n");
+		
+	_putchar('\n');
 }
