@@ -3,11 +3,11 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * * puts_half - prints half string
- * *
- * *@str: string
- * * Return: void
- * */
+ * puts_half - prints half string
+ *
+ *@str: string
+ * Return: void
+ */
 void puts_half(char *str)
 {
 	int n = strlen(str);
