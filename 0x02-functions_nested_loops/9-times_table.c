@@ -3,7 +3,7 @@
  *  * times_table - prints 9x table
  *   *
  *    * Return: void
- *     */
+ */
 void times_table(void)
 {
 	int column, row, sum, t;
