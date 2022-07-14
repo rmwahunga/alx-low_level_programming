@@ -1,19 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _strchr - Entry point
- * @s: input
- * @c: input
- * Return: Always 0 (Success)
+ * _strcat - concatenates string from other string
+ * @dest: destination string
+ * @src: source string
+ *
+ * Return: destination string concatenated
  */
-char *_strchr(char *s, ch c)
-     	int i;
-{	
-	for (i = 0; s[i] >= '\0'; i++)
-	{
-		if (s[i] == c)
-                     return (s + i);
-        } 
+char *_strcat(char *dest, char *src)
+{
+	int i = 0, j;
 
-	return (NULL);
+	while (dest[i] != '\0')
+		i++;
+	for (j = 0; src[j] != '\0'; j++, i++)
+		dest[i] = src[j];
+	dest[i] = '\0';
+	return (dest);
 }
