@@ -27,7 +27,7 @@ void print_number(int n)
 			n -= nth * size;
 			size /= 10;
 		}
-														}
+	}
 	_putchar('0' + ones);
 }
 
