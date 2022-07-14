@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *  * _abs - takes number and returns absolute value of that number
+ *   * @i: number to be check
+ *    *
+ *     * Return: Absolute value of integer
  */
 int _abs(int ab)
 {
