@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - check the code.
+ * _isalpha - Checks if input character is alphacharacter
+ * @c: letter to be checked
  *
- * Return: Always 0.
+ * Return: 1 for alpha, 0 for non-alpha
  */
 int _isalpha(int c)
 {
