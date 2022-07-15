@@ -13,7 +13,8 @@ char *cap_string(char *s)
 		s[0] -= 32;
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		switch (s[i])											   {
+		switch (s[i])											  
+	       	{
 		case ' ': case '\n': case '\t': case ',':
 		case ';': case '.': case '!': case '?': case '"':
 		case '(': case ')': case '{': case '}':
