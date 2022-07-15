@@ -1,23 +1,16 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *  * print_most_numbers - prints digits 0 - 9, skipping 2 & 4
+ *   *
+ *    * Return: void
  */
 void print_most_numbers(void)
 {
-	int i;
+	char i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 48; i < 58; i++)
 	{
-		if ((i == 2) || (i == 4))
-		{
-			continue;
-		}
-		else
-		{
-			_putchar(i + '0');
-		}	
+		i == '2' || i == '4' ? _putchar(++i) : _putchar(i);
 	}
 	_putchar('\n');
 }
