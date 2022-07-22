@@ -1,0 +1,14 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * main - Entry Point
+ * @a: number of args
+ * @b: pointer to args
+ * Return: Always 0 (Success)
+ */
+int main(int a, char **b)
+{
+	(void)a;
+	printf("%s\n", *b);
+	return (0);
+}
