@@ -19,7 +19,7 @@ int main(void)
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
 	{
-		print("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 	new->str = strdup("Hello");
